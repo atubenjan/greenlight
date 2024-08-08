@@ -74,8 +74,8 @@ class HealthChecksController < ApplicationController
     res = Net::HTTP.get(uri)
     doc = Nokogiri::XML(res)
 
-    raise "Unable to connect to BigBlueButton - #{res}" unless doc.css('returncode').text == 'SUCCESS'
+    raise "Unable to connect to Vlive - #{res}" unless doc.css('returncode').text == 'SUCCESS'
   rescue StandardError => e
-    raise "Unable to connect to BigBlueButton - #{e}"
+    raise "Unable to connect to Vlive - #{e}"
   end
 end

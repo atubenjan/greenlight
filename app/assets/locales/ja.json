@@ -31,21 +31,21 @@
   "no_result_search_input": "\"{{ searchInput }}\"は見つかりませんでした",
   "action_permanent": "この操作は取り消すことができません",
   "homepage": {
-    "welcome_bbb": "BigBlueButton へようこそ",
-    "bigbluebutton_description": "BigBlueButtonは、オンライン授業に最適化された、オープンソースのウェブ会議システムです。生徒や学生が協働し、すぐにフィードバックが得られるようにすることで、より多くの時間を実践的な学びにあてることができます。",
+    "welcome_bbb": "Vlive へようこそ",
+    "bigbluebutton_description": "Vliveは、オンライン授業に最適化された、オープンソースのウェブ会議システムです。生徒や学生が協働し、すぐにフィードバックが得られるようにすることで、より多くの時間を実践的な学びにあてることができます。",
     "greenlight_description": "自分の会議室を作成し、会議を開いてみてください。簡単なリンクを使って手軽に他人を招待することもできます。",
-    "learn_more": "BigBlueButtonについてもっと知る",
+    "learn_more": "Vlearnedについてもっと知る",
     "explore_features": "基本的な機能",
     "meeting_title": "会議を立ち上げる",
     "meeting_description": "ビデオ、音声、画面共有、チャットなど、実践的な学びに必要な全てのツールを備えた、仮想授業を立ちあげることができます。",
     "recording_title": "会議を録画する",
-    "recording_description": "BigBlueButtonの会議を録画し、それを生徒や学生と共有することで、教材を効果的に復習させることができます。",
+    "recording_description": "Vliveの会議を録画し、それを生徒や学生と共有することで、教材を効果的に復習させることができます。",
     "settings_title": "会議室を管理する",
     "settings_description": "自分の会議室や会議方法の設定を変更し、効果的な学びの場を作り上げることができます。",
     "and_more_title": "それだけではありません",
-    "and_more_description": "BigBlueButtonには実践的な学びのためのさまざまなツールが用意されており、授業を効率的に行うことができるようデザインされています。",
+    "and_more_description": "Vliveには実践的な学びのためのさまざまなツールが用意されており、授業を効率的に行うことができるようデザインされています。",
     "enter_meeting_url": "会議URLを入力",
-    "enter_meeting_url_instruction": "下の欄にBigBlueButtonの会議のURLを記入してください。"
+    "enter_meeting_url_instruction": "下の欄にVliveの会議のURLを記入してください。"
   },
   "authentication": {
     "sign_in": "サインイン",

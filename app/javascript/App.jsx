@@ -71,7 +71,7 @@ export default function App() {
 
   return (
     <>
-      <Title>BigBlueButton</Title>
+      <Title>Vlive</Title>
       {(homePage || currentUser.signed_in) && <Header /> }
       <Container className={pageHeight}>
         <Outlet />
