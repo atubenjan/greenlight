@@ -184,15 +184,15 @@ check_env() {
   local bbb_detected_err="This deployment installs Greenlight without BigBlueButton if planning to install both on the same system then please follow https://github.com/bigbluebutton/bbb-install instead."
 
   # Detecting BBB on the system
-  if [ "${BIGBLUEBUTTON[0]}" == "$HOST" ]; then
-    say "Your FQDN match that of the BigBlueButton server to be used, are you willing to install Greenlight with BigBlueButton on this system?"
-    err "$bbb_detected_err."
-  fi
+  # if [ "${BIGBLUEBUTTON[0]}" == "$HOST" ]; then
+  #   say "Your FQDN match that of the BigBlueButton server to be used, are you willing to install Greenlight with BigBlueButton on this system?"
+  #   err "$bbb_detected_err."
+  # fi
 
-  if dpkg -l | grep -q bbb; then
-    say "BigBlueButton modules has been detected on this system!" 
-    err "$bbb_detected_err."
-  fi
+  # if dpkg -l | grep -q bbb; then
+  #   say "BigBlueButton modules has been detected on this system!" 
+  #   err "$bbb_detected_err."
+  # fi
 
   # Possible conflicts on setup.
   if [ ! -f /etc/nginx/sites-available/greenlight ]; then
