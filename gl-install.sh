@@ -374,7 +374,7 @@ install_greenlight_v3(){
   local GL_IMG_REPO=bigbluebutton/custom_greenlight:v3
 
   say "Building latest $GL_IMG_REPO image..."
-  docker build -t $GL_IMG_REPO  .
+  docker build -t $GL_IMG_REPO  . 
 
   if [ ! -s $GL3_DIR/docker-compose.yml ]; then
     docker run --rm --entrypoint sh $GL_IMG_REPO -c 'cat docker-compose.yml' > $GL3_DIR/docker-compose.yml
