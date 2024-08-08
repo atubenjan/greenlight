@@ -197,10 +197,10 @@ check_env() {
   # Possible conflicts on setup.
   if [ ! -f /etc/nginx/sites-available/greenlight ]; then
     # Conflict detection of existent nginx on the system not installed by this script (possible collision with other applications).
-    if dpkg -s nginx 1> /dev/null 2>&1; then
-      say "Nginx is already installed on this system by another mean, this deployment may impact your workload!"
-      err "Remove and cleanup nginx configurations on this system OR kindly consider using a clean enviroment before proceeding."
-    fi
+    # if dpkg -s nginx 1> /dev/null 2>&1; then
+    #   say "Nginx is already installed on this system by another mean, this deployment may impact your workload!"
+    #   err "Remove and cleanup nginx configurations on this system OR kindly consider using a clean enviroment before proceeding."
+    # fi
 
     # Conflict detection of required ports being already in use.
     if check_ports_listen ':80$|:443$|:5050$|:5151$'; then
