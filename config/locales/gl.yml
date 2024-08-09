@@ -47,27 +47,27 @@
 
 gl:
   opengraph:
-    description: "Aprenda usando BigBlueButton, a solución de conferencias web de código aberto de confianza que permite unha colaboración virtual perfecta e experiencias de aprendizaxe en liña."
+    description: "Aprenda usando Vlive, a solución de conferencias web de código aberto de confianza que permite unha colaboración virtual perfecta e experiencias de aprendizaxe en liña."
   meeting:
     moderator_message: "Para convidar a alguén á xuntanza, envíelle esta ligazón:"
     access_code: "Código de acceso: %{code}"
   email:
     activation:
       account_activation: Activación da conta
-      welcome_to_bbb: Dámoslle a benvida a BigBlueButton!
+      welcome_to_bbb: Dámoslle a benvida a Vlive!
       get_started: "Para comezar, active a súa conta premendo no botón de embaixo."
       activate_account: Activar a conta
       link_expires: A ligazón caducará en 24 horas.
       if_link_expires: "Se a ligazón caduca, acceda e solicite un novo correo de activación."
     invitation:
-      invitation_to_join: Convite a BigBlueButton
-      you_have_been_invited: "Vde. foi convidado por %{name} a crear unha conta de BigBlueButton por."
+      invitation_to_join: Convite a Vlive
+      you_have_been_invited: "Vde. foi convidado por %{name} a crear unha conta de Vlive por."
       get_started: "Para rexistrarse, prema no seguinte botón e siga os pasos."
       valid_invitation: O convite é válido durante 24 horas.
       sign_up: Rexistrarse
     new_user_signup:
-      new_user: Novo rexistro de usuario de BigBlueButton
-      new_user_description: Rexistrouse un novo usuario para usar BigBlueButton.
+      new_user: Novo rexistro de usuario de Vlive
+      new_user_description: Rexistrouse un novo usuario para usar Vlive.
       name: "Nome: %{name}"
       email: "Correo-e: %{email}"
       admin_panel: "Panel de administración"

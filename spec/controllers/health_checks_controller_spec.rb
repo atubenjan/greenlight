@@ -98,7 +98,7 @@ RSpec.describe HealthChecksController, type: :controller do
       it 'returns failure message' do
         allow(Net::HTTP).to receive(:get).and_raise(StandardError.new('BBB error'))
         get :check
-        expect(response.body).to include('Unable to connect to BigBlueButton')
+        expect(response.body).to include('Unable to connect to Vlive')
         expect(response).to have_http_status(:internal_server_error)
       end
     end

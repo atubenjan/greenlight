@@ -47,27 +47,27 @@
 
 ca:
   opengraph:
-    description: "Aprèn utilitzant BigBlueButton, la solució de conferències web de codi obert de confiança que permet una col·laboració virtual sense interrupcions i experiències d'aprenentatge en línia."
+    description: "Aprèn utilitzant Vlive, la solució de conferències web de codi obert de confiança que permet una col·laboració virtual sense interrupcions i experiències d'aprenentatge en línia."
   meeting:
     moderator_message: "Per convidar algú a la reunió, envia'ls aquest enllaç:"
     access_code: "Codi d'accés: %{code}"
   email:
     activation:
       account_activation: Activació del Compte
-      welcome_to_bbb: Benvingut a BigBlueButton!
+      welcome_to_bbb: Benvingut a Vlive!
       get_started: "Per començar, si us plau activa el teu compte fent clic al botó de sota."
       activate_account: Activa el Compte
       link_expires: L'enllaç caducarà en 24 hores.
       if_link_expires: "Si l'enllaç caduca, si us plau inicia sessió i sol·licita un nou correu electrònic d'activació."
     invitation:
-      invitation_to_join: Invitació a BigBlueButton
-      you_have_been_invited: "Has estat convidat a crear un compte en BigBlueButton per %{name}."
+      invitation_to_join: Invitació a Vlive
+      you_have_been_invited: "Has estat convidat a crear un compte en Vlive per %{name}."
       get_started: "Per inscriure't, si us plau fes clic al botó de sota i segueix els passos."
       valid_invitation: La invitació és vàlida durant 24 hores.
       sign_up: Registre
     new_user_signup:
-      new_user: Nova Alta d'Usuari en BigBlueButton
-      new_user_description: Un nou usuari s'ha registrat per utilitzar BigBlueButton.
+      new_user: Nova Alta d'Usuari en Vlive
+      new_user_description: Un nou usuari s'ha registrat per utilitzar Vlive.
       name: "Nom: %{name}"
       email: "Correu electrònic: %{email}"
       admin_panel: "Tauler d'Administrador"

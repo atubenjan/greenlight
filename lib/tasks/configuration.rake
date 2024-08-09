@@ -46,7 +46,7 @@ namespace :configuration do
     end
     passed
 
-    info 'Checking connection to BigBlueButton:'
+    info 'Checking connection to Vlive:'
     test_request(Rails.configuration.bigbluebutton_endpoint)
     checksum = Digest::SHA1.hexdigest("getMeetings#{Rails.configuration.bigbluebutton_secret}")
     test_request("#{Rails.configuration.bigbluebutton_endpoint}getMeetings?checksum=#{checksum}")
@@ -72,9 +72,9 @@ def test_request(url)
   res = Net::HTTP.get(uri)
 
   doc = Nokogiri::XML(res)
-  failed("Could not get a valid response from BigBlueButton server - #{res}") if doc.css('returncode').text != 'SUCCESS'
+  failed("Could not get a valid response from Vlive server - #{res}") if doc.css('returncode').text != 'SUCCESS'
 rescue StandardError => e
-  failed("Error connecting to BigBlueButton server - #{e}")
+  failed("Error connecting to Vlive server - #{e}")
 end
 
 def passed

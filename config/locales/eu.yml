@@ -47,27 +47,27 @@
 
 eu:
   opengraph:
-    description: "BigBlueButton, paregabeko lankidetza birtual eta lineako ikaskuntza esperientziak ahalbidetzen dituen kode irekiko web-konferentzien irtenbide fidagarria."
+    description: "Vlive, paregabeko lankidetza birtual eta lineako ikaskuntza esperientziak ahalbidetzen dituen kode irekiko web-konferentzien irtenbide fidagarria."
   meeting:
     moderator_message: "Bilerara norbait gonbidatzeko, bidali esteka hau:"
     access_code: "Sarbide-kodea: %{code}"
   email:
     activation:
       account_activation: Kontua aktibatzea
-      welcome_to_bbb: Ongi etorri BigBlueButtonera!
+      welcome_to_bbb: Ongi etorri Vliveera!
       get_started: "Hasteko, aktibatu zure kontua botoi honetan klik eginez."
       activate_account: Aktibatu kontua
       link_expires: Esteka 24 ordutan iraungiko da.
       if_link_expires: "Esteka iraungiz gero, hasi saioa eta eskatu aktibazio mezu berria."
     invitation:
-      invitation_to_join: BigBlueButton gonbidapena
-      you_have_been_invited: "%{name}(e)k BigBlueButtoneko kontu bat zabaltzera gonbidatu zaitu."
+      invitation_to_join: Vlive gonbidapena
+      you_have_been_invited: "%{name}(e)k Vliveeko kontu bat zabaltzera gonbidatu zaitu."
       get_started: "Izena emateko, egin klik beheko botoian eta jarraitu urratsei."
       valid_invitation: Gonbita 24 ordukoa da.
       sign_up: Izena eman
     new_user_signup:
-      new_user: BigBlueButton-en erabiltzaile berria
-      new_user_description: Erabiltzaile berri batek BigBlueButton erabiltzeko izena eman du.
+      new_user: Vlive-en erabiltzaile berria
+      new_user_description: Erabiltzaile berri batek Vlive erabiltzeko izena eman du.
       name: "Izena: %{name}"
       email: "Eposta: %{email}"
       admin_panel: "Administratzaile-panela"

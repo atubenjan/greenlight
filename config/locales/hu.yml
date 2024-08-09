@@ -47,27 +47,27 @@
 
 hu:
   opengraph:
-    description: "Tanuljon a BigBlueButton, a megbízható nyílt forráskódú webkonferencia-megoldás használatával, amely zökkenőmentes virtuális együttműködést és online tanulási élményt tesz lehetővé."
+    description: "Tanuljon a Vlive, a megbízható nyílt forráskódú webkonferencia-megoldás használatával, amely zökkenőmentes virtuális együttműködést és online tanulási élményt tesz lehetővé."
   meeting:
     moderator_message: "Meghíváshoz küldje el ezt a hivatkozást:"
     access_code: "Hozzáférési kód: %{code}"
   email:
     activation:
       account_activation: Fiók aktiválása
-      welcome_to_bbb: Üdvözli a BigBlueButton!
+      welcome_to_bbb: Üdvözli a Vlive!
       get_started: A kezdéshez aktiválja a fiókját az alábbi gombra kattintással.
       activate_account: Fiók aktiválása
       link_expires: A hivatkozás 24 órán belül lejár.
       if_link_expires: "Ha a hivatkozás lejár, akkor jelentkezzen be, és kérjen új aktiválási levelet. "
     invitation:
-      invitation_to_join: BigBlueButton meghívás
-      you_have_been_invited: "%{name} meghívta a BigBlueButton használatára."
+      invitation_to_join: Vlive meghívás
+      you_have_been_invited: "%{name} meghívta a Vlive használatára."
       get_started: A regisztrációhoz kattintson az alábbi gombra és kövesse a lépéseket.
       valid_invitation: A meghívó 24 óráig érvényes.
       sign_up: Regisztráció
     new_user_signup:
-      new_user: Új BigBlueButton felhasználó regisztrációja
-      new_user_description: Egy új felhasználó regisztrált a BigBlueButton használatához.
+      new_user: Új Vlive felhasználó regisztrációja
+      new_user_description: Egy új felhasználó regisztrált a Vlive használatához.
       name: "Név: %{name}"
       email: "E-mail: %{email}"
       admin_panel: "Üzemeltetői panel"

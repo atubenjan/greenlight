@@ -47,27 +47,27 @@
 
 de:
   opengraph:
-    description: "Erfahre mehr über BigBlueButton, die bewährte Open-Source-Lösung für Webkonferenzen, die eine nahtlose virtuelle Zusammenarbeit und Online-Lernerfahrungen ermöglicht."
+    description: "Erfahre mehr über Vlive, die bewährte Open-Source-Lösung für Webkonferenzen, die eine nahtlose virtuelle Zusammenarbeit und Online-Lernerfahrungen ermöglicht."
   meeting:
     moderator_message: "Um jemanden zur Konferenz einzuladen, verschicke diesen Link:"
     access_code: "Zugangscode: %{code}"
   email:
     activation:
       account_activation: Kontoaktivierung
-      welcome_to_bbb: Willkommen in BigBlueButton!
+      welcome_to_bbb: Willkommen in Vlive!
       get_started: Klicke auf die Schaltfläche um das Konto zu aktivieren.
       activate_account: Konto aktivieren
       link_expires: Der Link wird in 24 Stunden ungültig.
       if_link_expires: "Sollte der Link abgelaufen sein, dann melde dich bitte an und fordere eine neue Aktivierungs-EMail an."
     invitation:
-      invitation_to_join: BigBlueButton-Einladung
-      you_have_been_invited: "Du wurdest von %{name} eingeladen, ein BigBlueButton-Konto zu erstellen."
+      invitation_to_join: Vlive-Einladung
+      you_have_been_invited: "Du wurdest von %{name} eingeladen, ein Vlive-Konto zu erstellen."
       get_started: "Um dich zu registrieren, klicken bitte auf diese Schaltfläche."
       valid_invitation: Die Einladung ist 24 Stunden gültig.
       sign_up: Registrieren
     new_user_signup:
-      new_user: Anmeldung eines neuen BigBlueButton-Nutzers
-      new_user_description: Ein neuer Nutzer hat sich angemeldet um BigBlueButton zu benutzen.
+      new_user: Anmeldung eines neuen Vlive-Nutzers
+      new_user_description: Ein neuer Nutzer hat sich angemeldet um Vlive zu benutzen.
       name: "Name: %{name}"
       email: "E-Mail: %{email}"
       admin_panel: "Administrator-Panel"
