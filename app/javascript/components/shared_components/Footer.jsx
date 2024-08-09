@@ -31,10 +31,10 @@ export default function Footer() {
   return (
     <footer id="footer" className="footer background-whitesmoke text-center">
       <Container id="footer-container" className="py-3">
-        <a href="https://docs.bigbluebutton.org/greenlight/v3/install" target="_blank" rel="noreferrer">Vlive</a>
+        <a href="https://vlearned.com/" target="_blank" rel="noreferrer">Vlive</a>
         { isAdmin && <span className="text-muted"> {env?.VERSION_TAG} </span> }
         { links?.Terms
-          && (
+          && (  
             <a className="ps-3" href={links?.Terms} target="_blank" rel="noreferrer">
               { t('admin.site_settings.administration.terms') }
             </a>
