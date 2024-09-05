@@ -71,7 +71,7 @@ export default function App() {
 
   return (
     <>
-      <Title>Vlive</Title>
+      <Title>Vlive Now</Title>
       {(homePage || currentUser.signed_in) && <Header /> }
       <Container className={pageHeight}>
         <Outlet />
